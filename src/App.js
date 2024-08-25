@@ -25,7 +25,7 @@ const handlelinethrou=(index)=>{
   return (
      <div className='appContainer'>
         <div className='container'>
-      <h3>To do list</h3>
+      <h3>To do tasks</h3>
       <ul>
         {todo.map(({text,complited},index)=>{
           return(
